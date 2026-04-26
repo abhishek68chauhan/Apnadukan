@@ -1,0 +1,64 @@
+#box {
+  height: 200px;
+}
+
+#box1,
+#box2,
+#box3,
+#box4,
+#box5,
+#box6,
+#box7,
+#box8,
+#box9,
+#box10,
+#box11,
+#box12,
+#box13,
+#box14 {
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  border: solid 1px rgb(0, 0, 0);
+  border-radius: 20px;
+}
+
+#box1 img,
+#box2 img,
+#box3 img,
+#box4 img,
+#box5 img,
+#box6 img,
+#box7 img,
+#box8 img,
+#box9 img,
+#box10 img,
+#box11 img,
+#box12 img,
+#box13 img,
+#box14 img {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+div img {
+  height: 174.5px;
+  width: 200px;
+
+}
+
+.div1 img {
+  height: 100%;
+  width: 100%;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #f59e0b, #ec4899, #6366f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
